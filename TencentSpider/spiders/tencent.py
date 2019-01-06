@@ -23,10 +23,7 @@ class TencentSpider(CrawlSpider):
 
     # 指定的回调函数
     def parseTencent(self, response):
-        #evenlist = response.xpath("//tr[@class='even'] | //tr[@class='odd']")
-        #oddlist = response.xpath("//tr[@class='even'] | //tr[@class='odd']")
-        #fulllist = evenlist + oddlist
-        #for each in fulllist:
+
         for each in response.xpath("//tr[@class='even'] | //tr[@class='odd']"):
             item = TencentItem()
             # 职位名称
