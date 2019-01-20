@@ -8,6 +8,8 @@
 import json
 import spiders
 import re
+import requests
+
 class TencentPipeline(object):
     def __init__(self):
         self.filename = open("tencent.json", "w")
