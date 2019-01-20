@@ -6,9 +6,6 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import json
-import spiders
-import re
-import requests
 
 class TencentPipeline(object):
     def __init__(self):
