@@ -8,6 +8,7 @@
 import scrapy
 
 class TencentItem(scrapy.Item):
+    
     # define the fields for your item here like:
     # 职位名
     positionname = scrapy.Field()
