@@ -7,7 +7,7 @@
 
 import json
 import spiders
-
+import re
 class TencentPipeline(object):
     def __init__(self):
         self.filename = open("tencent.json", "w")
