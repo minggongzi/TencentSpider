@@ -16,5 +16,7 @@ class TencentPipeline(object):
         self.filename.write(text.encode("utf-8"))
         return item
 
+    
+
     def close_spider(self, spider):
         self.filename.close()
